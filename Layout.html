@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <style>
+    header {
+      background-color: cadetblue;
+      color: brown;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      float: left;
+      padding: 20px;
+      width: 30%;
+      height: 130px;
+      background-color: aquamarine;
+      color: blue;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      background-color: cornflowerblue;
+      color: wheat;
+      width: 64%;
+      float: left;
+      height: 130px;
+      padding: 20px;
+    }
+
+    section::after {
+      display: table;
+      clear: both;
+      content: " ";
+    }
+
+    footer {
+      background-color: cadetblue;
+      color: brown;
+      padding: 20px;
+      margin-top: 20px;
+      height: 100px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    This my header
+  </header>
+  <section>
+    <nav>
+      <ul>
+        <li>London</li>
+        <li>Paris</li>
+        <li>Pakistan</li>
+      </ul>
+    </nav>
+    <article>
+      <h3>This my article</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui corrupti nemo voluptas quod quidem in ab omnis
+        officiis sapiente? Libero reprehenderit obcaecati dignissimos est totam vitae ex nisi aperiam tenetur!</p>
+    </article>
+  </section>
+  <footer>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, magnam reprehenderit! Iure natus iste
+      exercitationem</p>
+  </footer>
+</body>
+
+</html>

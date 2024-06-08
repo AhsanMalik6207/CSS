@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+  <h2>This is a HTML Form</h2>
+  <form action="backedn.php">
+    <label for="name">Enter Your Name:</label>
+    <div>
+      <input type="text" name="myName" id="name" />
+    </div>
+    <label for="RollNo">Enter Your Roll No:</label>
+    <div>
+      <input type="number" name="myRollNo" id="Roll" />
+    </div>
+    <label for="name">Enter Your Email:</label>
+    <div>
+      <input type="text" name="myEmail" id="Email" />
+    </div><br />
+    <div>
+      Date: <input type="date" name="myDate">
+    </div>
+    <div>
+      What are your favourite games? Cricket<input type="checkbox" value="Cricket" checked />
+      Badmenton<input type="checkbox" value="Badmenton" checked />
+      Hockey<input type="checkbox" value="Hockey" />
+      Athlete<input type="checkbox" value="Athlete" />
+    </div>
+    <div>
+      Gender: Male <input type="radio" value="male" checked />
+      FeMale <input type="radio" value="male" />
+    </div>
+    <div>
+      Write about yourself:<br>
+      <textarea name="myTex" cols="50" rows="10">
+Hi I'm Ahsan Malik Professional web trainer
+  </textarea>
+      <div>
+        <br>
+        <label for="car">Car:</label>
+        <select name="myCar" id="car">
+          <option value="Ind">Indica</option>
+          <option value="BMW">BMW</option>
+          <option value="Swf">Swift</option>
+        </select>
+      </div><br>
+      <div>
+        <input type="submit" name="submit" id="submit" value="Submit Now">
+      </div>
+    </div>
+  </form>
+  <video width="320" height="240" controls muted poster="picture/ahsan.jpg">
+    <source src="./video/naat.mp4" type="video/mp4">
+    <source src="./video/naat.ogg" type="video/ogg">
+  </video>
+  <audio width="320" height="240" controls autoplay>
+    <source src="./Audio/3.mp3" type="audio/mp4">
+    <!-- <source src="./Audio/3.ogg" type="audio/ogg"> -->
+  </audio>
+  <div>'
+    <figure>
+      <img src="./picture/ahsan.jpg" height="240" width="320" />
+      <figcaption>Ahsan Malik</figcaption>
+    </figure>
+  </div>
+  <div>
+    <iframe src="https://www.wikipedia.org/" frameborder="1" title="wikipedia" width="1000" height="600"></iframe>
+  </div>
+</body>
+
+</html>
